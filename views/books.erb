@@ -1,0 +1,8 @@
+<h1>You sent in this data: <%= data.inspect %></h1>
+
+<p>Here's each key/value</p>
+<ul>
+  <% data.each do |k,v| %>
+    <li>Key: "<%= k %>" / Value: "<%= v %>"</li>
+  <% end %>
+</ul>
