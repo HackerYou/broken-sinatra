@@ -1,10 +1,11 @@
 broken-sinatra
 ==============
 
-# A purposefully broken Sinatra app to aid in debugging errors
+## A purposefully broken Sinatra app to aid in debugging errors
 
+### Welcome to this broken app. As you complete each answer, commit your changes to Git. If you don't finish the bonus questions, 4 and 5 that's fine, just make sure you complete the final steps.
 
-## Welcome to this broken app. To start, run the ruby file included. Happy debugging!
+#### To start, run the ruby file included. Happy debugging!
 
 1. This app doesn't start. What do you need to do to fix it?
 2. Make a GET request to `/now`. What's missing from here? Fix it.
@@ -20,4 +21,12 @@ broken-sinatra
   * `{"isbn": "abcdefg", "author": "Brad Robertson"}`
   * [HINT] curl is once again your friend, but your data will be a bit different
 
-### Answers can be found in the `answers` branch
+#### Final Steps
+1. Try pushing your completed app back to Github
+  * What happens?
+  * Why do you think this doesn't work?
+2. Think of a way that you *might* be able to push this to Github (but not on the HackerYou account)
+  * segue into [Github Forks](https://help.github.com/articles/fork-a-repo)
+  * read up and we'll go over it shortly.
+
+#### Answers can be found in the `answers` branch
