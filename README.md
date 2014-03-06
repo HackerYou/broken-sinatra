@@ -25,8 +25,8 @@ broken-sinatra
 1. Try pushing your completed app back to Github
   * What happens?
   * Why do you think this doesn't work?
-2. Think of a way that you *might* be able to push this to Github (but not on the HackerYou account)
-  * segue into [Github Forks](https://help.github.com/articles/fork-a-repo)
-  * read up and we'll go over it shortly.
+2. Think of a way that you *might* be able to push this to Github, but not on the HackerYou account.
+  * [hint 1](https://help.github.com/articles/create-a-repo)
+  * [hint 2](https://help.github.com/articles/adding-a-remote)
 
 #### Answers can be found in the `answers` branch
