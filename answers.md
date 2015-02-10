@@ -10,9 +10,27 @@
   * In the current implementation, `params[:name]` needs to exist (i.e. not be `nil`), so we need to make a request like `GET /hi/brad`
   * To fix, use string interpolation (which will work even if `params[:name]` is `nil`): `"You did it #{params[:name]}!"`
 4. [BONUS] POST from data to `/users`
-  * `curl -d 'name=HackerYou&course=IntroToRails' localhost:4567/users`
+  
+  Request: `curl --data 'name=HackerYou&course=IntroToRails' localhost:4567/users`
+  
+  Response: `You posted the following data: {"name"=>"HackerYou", "course"=>"IntroToRails"}`
 5. [DOUBLE BONUS] POST JSON data to `/books`
-  * `curl -d '{"isbn": "abcdefg", "author": "Brad Robertson"}' localhost:4567/books`
+  
+  Request: `curl --data '{"isbn": "abcdefg", "author": "Brad Robertson"}' localhost:4567/books`
+  
+  Response:
+    ```sh
+      <h1>You sent in this data: {"isbn"=>"abcdefg", "author"=>"Brad Robertson"}</h1>
+
+      <p>Here's each key/value</p>
+      <ul>
+
+          <li>Key: "isbn" / Value: "abcdefg"</li>
+
+          <li>Key: "author" / Value: "Brad Robertson"</li>
+
+      </ul>
+    ```
 
 #### Final steps
 1. You can't push back to Github, because you're trying to push to the HackerYou account, which you don't have push access to.
