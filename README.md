@@ -34,3 +34,5 @@ broken-sinatra
   * [hint 2](https://help.github.com/articles/adding-a-remote)
 
 #### Answers can be found in the `answers` branch
+
+[Click here](https://github.com/HackerYou/broken-sinatra/compare/master...answers) to see the changes made in steps 1-5
