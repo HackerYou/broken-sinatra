@@ -6,7 +6,7 @@ get '/now' do
   "The current time is:  ?"
 end
 
-get '/hackeryou'
+get '/hackeryou' do
   "Is Awesome!"
 end
 
